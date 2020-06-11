@@ -2,7 +2,9 @@
     --color-black: rgb(0,0,0);
     --color-white: rgb(255,255,255);
     --color-grey: rgb(243,243,243);
+    --color-blue: rgb(248,248,248);
     --lato-sans-font: 'Lato', sans-serif;
+
 }
 
 * {
@@ -11,6 +13,8 @@
      box-sizing: border-box; 
      font-family: var(--lato-sans-font); 
 } 
+
+
 li {
     list-style: none; 
 } 
@@ -29,6 +33,7 @@ html,body{
     width: 100%;
     box-sizing: 0;
     overflow-x: hidden;
+    background-color: var(--color-blue);
 }
 
 nav{
@@ -90,4 +95,7 @@ nav a{
     border: none;
     cursor: pointer;
     margin-left: 0.4rem;
+}
+main{
+    margin-top: 100px;
 }
