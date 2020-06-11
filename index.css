@@ -103,6 +103,7 @@ main {
   margin-top: 100px;
   width: 100%;
   background-color: var(--color-white);
+  margin-bottom: 100px;
 }
 
 section {
@@ -186,11 +187,66 @@ section h1 {
 
 .grid-section {
   margin-top: 1.6rem;
-  padding-left: 100px;
   border: 1px solid var(--color-black);
+  height: 800px;
 }
 
 .theory-inflation {
   color: var(--color-light-grey);
   font-size: 1rem;
+}
+
+.grid {
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png ");
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.grid p,
+h4 {
+  font-size: 0.9rem;
+}
+
+.grid div:nth-child(1) {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.grid div:nth-child(2) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid div:nth-child(3) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid div:nth-child(4) {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid div:nth-child(5) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.grid div:nth-child(6) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.grid div:nth-child(7) {
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.grid div:nth-child(8) {
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
