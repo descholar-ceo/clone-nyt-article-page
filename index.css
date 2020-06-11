@@ -130,3 +130,38 @@ section h1 {
   text-align: left;
   color: var(--color-light-grey);
 }
+
+.article-ref {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.article-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.fa {
+  width: 3rem;
+}
+
+.fa-comment-o {
+  font-size: 2rem;
+}
+
+.number-comment {
+  padding: 0.4rem;
+  margin-left: -2.2rem;
+  font-size: 10px;
+}
+
+.article-icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
