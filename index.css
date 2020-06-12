@@ -5,6 +5,7 @@
   --color-blue: rgb(248, 248, 248);
   --lato-sans-font: 'Lato', sans-serif;
   --color-light-grey: rgb(102, 102, 102);
+  --color-dark-blue: rgb(86, 123, 149);
 }
 
 * {
@@ -20,6 +21,7 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--color-black);
 }
 
 img {
@@ -154,6 +156,9 @@ section h1 {
 
 .fa {
   width: 3rem;
+  border-radius: 100px;
+  text-align: center;
+  color: var(--color-black);
 }
 
 .fa-comment-o {
@@ -173,12 +178,13 @@ section h1 {
 }
 
 .unlock-more {
-  border-top: 1px solid var(--color-light-grey);
-  border-bottom: 1px solid var(--color-light-grey);
-  margin: 1.3rem 0;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   text-align: center;
+}
+
+.unlok-more-borders {
+  margin-top: 2rem;
+  border: solid 1px var(--color-light-grey);
+  width: 60px;
 }
 
 .img-grid {
@@ -230,4 +236,29 @@ span {
 .pattern-caption {
   font-size: 0.8rem;
   margin-bottom: 2rem;
+}
+
+.empty-title {
+  display: none;
+}
+
+.asset-container {
+  margin-top: 2rem;
+}
+
+.asset-container p {
+  margin-top: 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--color-light-grey);
+}
+
+.asset-container button {
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
 }
