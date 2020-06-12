@@ -306,14 +306,14 @@ aside img {
 
 .bottom-section {
   margin-top: 5rem;
-  width: 90%;
-  margin-left: 80px;
+  width: 80%;
+  margin-left: 60px;
 }
 
 .bottom-section > div {
   border-top: 1px solid var(--color-black);
   border-bottom: 1px solid var(--color-black);
-  width: 78%;
+  width: 81%;
 }
 
 .bottom-section h3 {
@@ -323,14 +323,31 @@ aside img {
 .bottom-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  width: 70%;
+  width: 60%;
 }
 
-.bottom-grid div {
+.bottom-grid div,
+.last-bottom-grid  div {
   margin: 0.5rem;
 }
 
 .bottom-grid img {
   height: 200;
-  width: 300px;
+  width: 263px;
 }
+.last-bottom-grid {
+  display: grid;
+  grid-template:  1fr / repeat(3, 1fr); 
+
+}
+
+.title-bottom h3 {
+  margin: 1rem;
+
+}
+.sml{
+  color: var(--color-light-grey);
+  font-size: 0.6rem;
+  text-align: left;
+}
+
