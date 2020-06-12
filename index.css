@@ -320,17 +320,17 @@ aside img {
   margin: 1rem;
 }
 
-.bottom-grid{
+.bottom-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   width: 70%;
 }
 
-.bottom-grid div{
+.bottom-grid div {
   margin: 0.5rem;
 }
 
-.bottom-grid img{
+.bottom-grid img {
   height: 200;
   width: 300px;
 }
