@@ -306,7 +306,7 @@ aside img {
 
 .bottom-section {
   display: grid;
-  grid-template: 1fr / 4fr 1fr;
+  grid-template: 1fr / 3fr 1fr;
   column-gap: 1.5rem;
   margin-top: 5rem;
   margin-left: 60px;
@@ -319,13 +319,16 @@ aside img {
 .bottom-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  border-bottom: 1px solid var(--color-black);
-  border-top: 1px solid var(--color-black);
+
+  
 }
 
 .bottom-grid div,
 .last-bottom-grid  div {
   margin: 0.5rem;
+}
+.first-last-grid h3 {
+  border-top: 1px solid var(--color-black);
 }
 
 .last-bottom-grid {
