@@ -303,3 +303,34 @@ aside img {
 .last-asid-pic {
   background-color: var(--color-grey);
 }
+
+.bottom-section {
+  margin-top: 5rem;
+  width: 90%;
+  margin-left: 80px;
+}
+
+.bottom-section > div {
+  border-top: 1px solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  width: 78%;
+}
+
+.bottom-section h3 {
+  margin: 1rem;
+}
+
+.bottom-grid{
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  width: 70%;
+}
+
+.bottom-grid div{
+  margin: 0.5rem;
+}
+
+.bottom-grid img{
+  height: 200;
+  width: 300px;
+}
