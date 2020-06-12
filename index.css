@@ -187,8 +187,8 @@ section h1 {
 
 .grid-section {
   margin-top: 1.6rem;
-  border: 1px solid var(--color-black);
   height: 800px;
+  width: 70%;
 }
 
 .theory-inflation {
@@ -207,46 +207,71 @@ section h1 {
 }
 
 .grid p,
-h4 {
-  font-size: 0.9rem;
+span {
+  font-size: 14px;
 }
 
-.grid div:nth-child(1) {
-  grid-row-start: 2;
-  grid-row-end: 4;
+.grid span{
+font-weight: bold;
+margin-right: 10px;
 }
 
+.row-1 {
+  padding-top: 9rem;
+  padding-right: 1rem;
+}
+
+.row-2{
+
+  padding-top: 2rem;
+  padding-right: 1rem;
+}
+/* 
 .grid div:nth-child(2) {
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .grid div:nth-child(3) {
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 6;
 }
 
 .grid div:nth-child(4) {
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 7;
+  grid-column-end: 8;
 }
 
 .grid div:nth-child(5) {
   grid-row-start: 4;
   grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .grid div:nth-child(6) {
   grid-row-start: 4;
   grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
 
 .grid div:nth-child(7) {
   grid-row-start: 4;
   grid-row-end: 5;
+  grid-column-start: 5;
+  grid-column-end: 6;
 }
 
 .grid div:nth-child(8) {
   grid-row-start: 4;
   grid-row-end: 5;
-}
+  grid-column-start: 7;
+  grid-column-end: 8;
+} */
