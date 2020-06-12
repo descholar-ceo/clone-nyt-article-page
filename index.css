@@ -6,6 +6,7 @@
   --lato-sans-font: 'Lato', sans-serif;
   --color-light-grey: rgb(102, 102, 102);
   --color-dark-blue: rgb(86, 123, 149);
+  --color-dark-white: rgb(226, 226, 226);
 }
 
 * {
@@ -56,7 +57,7 @@ nav a {
 
 .nav-menu a:hover,
 .subscribe-container a:hover {
-  border-bottom: 1px solid var(--color-black);
+  text-decoration: underline;
 }
 
 .flex-element-horizontal {
@@ -260,5 +261,45 @@ span {
   height: 2rem;
   border: none;
   outline: none;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
+}
+
+aside{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: -80rem;
+  margin-right: 3rem;
+}
+
+aside h4{
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-dark-white);
+  line-height: 50px;
+}
+
+aside div{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+aside img{
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+aside a{
+  font-size: 14px;
+  color: var(--color-light-grey);
+}
+
+aside a:hover{
+  text-decoration: underline;
+}
+
+.last-asid-pic{
+  background-color: var(--color-grey);
 }
