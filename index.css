@@ -338,18 +338,18 @@ aside img {
   margin: 1rem;
 
 }
-.sml{
+.sml {
   color: var(--color-light-grey);
   font-size: 0.6rem;
   text-align: left;
 }
 
-.second-last-grid div{
+.second-last-grid div {
   margin-bottom: 2rem;
   width: 100%;
   border-bottom: 0.5px solid var(--color-dark-white);
 }
 
-.second-last-grid a{
+.second-last-grid a {
   margin-bottom: 100px;
 }
