@@ -437,9 +437,34 @@ footer li:hover {
 }
 
 .last-bottom-links {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .last-bottom-links ul {
   justify-content: space-around;
+}
+
+.footer-stick-div {
+  border-top: 1px solid var(--color-black);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.up-to-date-info {
+  justify-content: center;
+  width: 90%;
+}
+
+.expand {
+  justify-content: space-around;
+  margin-right: 4rem;
+  width: 10%;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
