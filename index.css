@@ -323,8 +323,7 @@ aside img {
   display: grid;
   grid-template: 1fr / 3fr 1fr;
   column-gap: 1.5rem;
-  margin-top: 5rem;
-  margin-left: 60px;
+  width: 85%;
 }
 
 .bottom-section h3 {
@@ -389,7 +388,7 @@ footer {
 }
 
 .footer-content {
-  width: 90%;
+  width: 85%;
 }
 
 footer li {
