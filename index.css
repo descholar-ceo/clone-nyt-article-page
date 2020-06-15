@@ -60,6 +60,11 @@ aside a {
   color: var(--color-light-grey);
 }
 
+.second-last-grid a {
+  margin-bottom: 100px;
+  font-size: 1.2rem;
+}
+
 aside a:hover {
   text-decoration: underline;
 }
@@ -314,37 +319,32 @@ aside img {
 
 .bottom-section h3 {
   margin: 1rem;
+  font-size: 1rem;
 }
 
 .bottom-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-
-  
 }
 
 .bottom-grid div,
-.last-bottom-grid  div {
+.last-bottom-grid div {
   margin: 0.5rem;
 }
 
 .last-bottom-grid {
   display: grid;
-  grid-template:  1fr / repeat(3, 1fr);
-
+  grid-template: 1fr / repeat(3, 1fr);
 }
 
-.bottom-section h3 {
-  margin: 1rem;
-font-size: 1rem;
-}
 .sml {
   color: var(--color-light-grey);
   font-size: 0.6rem;
   text-align: left;
 }
 
-.second-last-grid, .first-last-grid{
+.second-last-grid,
+.first-last-grid {
   border-top: 1px solid var(--color-black);
 }
 
@@ -355,16 +355,11 @@ font-size: 1rem;
   border-top: 0.5px solid var(--color-dark-white);
 }
 
-.second-last-grid a {
-  margin-bottom: 100px;
-  font-size: 1.2rem;
-}
-
-.second-last-grid a:hover{
+.second-last-grid a:hover {
   color: var(--color-light-grey);
 }
 
-.title-bottom{
+.title-bottom {
   border-top: 1px solid var(--color-black);
   margin-top: 1rem;
 }
