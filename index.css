@@ -363,3 +363,48 @@ aside img {
   border-top: 1px solid var(--color-black);
   margin-top: 1rem;
 }
+footer {
+  width: 100%;
+  background-color: var(--color-white);
+
+}
+
+footer li {
+  line-height: 1.8rem;
+}
+
+.footer-logo-container {
+  width: 100%;
+  justify-content: space-between;
+}
+.footer-logo-container a {
+ font-size: 0.6rem;
+ color: var(--color-dark-blue);
+
+}
+.link-list {
+  display: grid;
+  grid-template: 1fr  / repeat(4 , 3fr) 1fr 3fr ;
+  margin: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.fa-file-text{
+width: 1.8rem;
+}
+
+.sub-footer-header {
+  font-weight: bold;
+  font-size: 1rem ;
+  margin-bottom: 0.8rem;
+}
+.sub-footer-header a:hover {
+  text-decoration: underline;
+}
+.sub-footer-email {
+  border-bottom: 1px solid var(--color-dark-white);  
+}
+.sub-footer-border {
+  border-left: 1px solid var(--color-dark-white);
+  margin: 1rem;
+}
