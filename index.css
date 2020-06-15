@@ -453,6 +453,7 @@ footer li:hover {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 2rem;
+  cursor: pointer;
 }
 
 .up-to-date-info {
