@@ -84,6 +84,10 @@ aside a:hover {
   text-decoration: underline;
 }
 
+.nav-menu img{
+  cursor: pointer;
+}
+
 .flex-element-horizontal {
   display: flex;
   flex-direction: row;
