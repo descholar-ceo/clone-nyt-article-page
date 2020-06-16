@@ -1,0 +1,474 @@
+:root {
+  --color-black: rgb(0, 0, 0);
+  --color-white: rgb(255, 255, 255);
+  --color-grey: rgb(243, 243, 243);
+  --color-blue: rgb(248, 248, 248);
+  --lato-sans-font: 'Lato', sans-serif;
+  --color-light-grey: rgb(102, 102, 102);
+  --color-dark-blue: rgb(86, 123, 149);
+  --color-dark-white: rgb(226, 226, 226);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--lato-sans-font);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+img {
+  width: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: 0;
+  overflow-x: hidden;
+  background-color: var(--color-blue);
+}
+
+nav {
+  position: fixed;
+  background: var(--color-white);
+  width: 98%;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-grey);
+}
+
+nav a {
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+aside a {
+  font-size: 14px;
+  color: var(--color-light-grey);
+}
+
+.second-last-grid a {
+  margin-bottom: 100px;
+  font-size: 1.2rem;
+}
+
+.footer-logo-container a {
+  font-size: 0.6rem;
+  color: var(--color-dark-blue);
+}
+
+.last-bottom-links a {
+  font-size: 0.7rem;
+  color: var(--color-light-grey);
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+.nav-menu a:hover,
+.subscribe-container a:hover {
+  text-decoration: underline;
+}
+
+aside img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.nav-menu img {
+  cursor: pointer;
+}
+
+.flex-element-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-icones {
+  width: 1rem;
+  display: flex;
+}
+
+.logo {
+  width: 15rem;
+  height: 3rem;
+}
+
+.logo:hover {
+  border-bottom: none;
+}
+
+.nav-menu {
+  align-items: center;
+  justify-content: space-between;
+  width: 13rem;
+  margin-left: 1rem;
+}
+
+.subscribe-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login-btn {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 0.2rem;
+  width: 4rem;
+  padding: 0.4rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.4rem;
+}
+
+main {
+  margin-top: 100px;
+  width: 100%;
+  background-color: var(--color-white);
+  margin-bottom: 100px;
+}
+
+section {
+  width: 90%;
+}
+
+section h1 {
+  text-align: left;
+  justify-content: center;
+  font-style: italic;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.centered-element {
+  margin: 0 auto;
+}
+
+.main-img {
+  width: 80%;
+  text-align: center;
+}
+
+.main-img p {
+  text-align: left;
+  color: var(--color-light-grey);
+}
+
+.article-ref {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.article-ref p {
+  margin-top: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.article-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.fa {
+  width: 3rem;
+  border-radius: 100px;
+  text-align: center;
+  color: var(--color-black);
+}
+
+.fa-comment-o {
+  font-size: 2rem;
+}
+
+.number-comment {
+  padding: 0.4rem;
+  margin-left: -2.2rem;
+  font-size: 10px;
+}
+
+.article-icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+.unlock-more {
+  text-align: center;
+}
+
+.unlok-more-borders {
+  margin-top: 2rem;
+  border: solid 1px var(--color-light-grey);
+  width: 60px;
+}
+
+.img-grid {
+  width: 80%;
+}
+
+.grid-section {
+  margin-top: 1.6rem;
+  width: 70%;
+}
+
+.theory-inflation {
+  color: var(--color-light-grey);
+  font-size: 1rem;
+}
+
+.grid {
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png ");
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.grid p,
+span {
+  font-size: 14px;
+}
+
+.grid span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+aside div {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.grid div {
+  padding-top: 9rem;
+  padding-right: 1rem;
+}
+
+.pattern-caption-top-line {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100px;
+  border-top: 1px solid var(--color-black);
+}
+
+.pattern-caption {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.empty-title {
+  display: none;
+}
+
+.asset-container {
+  margin-top: 2rem;
+}
+
+.asset-container p {
+  margin-top: 0;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--color-light-grey);
+}
+
+.asset-container button {
+  color: var(--color-white);
+  background-color: var(--color-dark-blue);
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+}
+
+aside {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: -80rem;
+  margin-right: 3rem;
+}
+
+aside h4 {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--color-dark-white);
+  line-height: 50px;
+}
+
+.last-asid-pic {
+  background-color: var(--color-grey);
+}
+
+.bottom-section {
+  display: grid;
+  grid-template: 1fr / 3fr 1fr;
+  column-gap: 1.5rem;
+  width: 85%;
+}
+
+.bottom-section h3 {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.bottom-grid div,
+.last-bottom-grid div {
+  margin: 0.5rem;
+}
+
+.last-bottom-grid {
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+}
+
+.sml {
+  color: var(--color-light-grey);
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.second-last-grid,
+.first-last-grid {
+  border-top: 1px solid var(--color-black);
+}
+
+.second-last-grid div {
+  width: 100%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-top: 0.5px solid var(--color-dark-white);
+}
+
+.first-last-grid div:hover {
+  cursor: pointer;
+}
+
+.first-last-grid p:hover {
+  color: var(--color-light-grey);
+}
+
+.second-last-grid a:hover {
+  color: var(--color-light-grey);
+}
+
+.title-bottom {
+  border-top: 1px solid var(--color-black);
+  margin-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--color-white);
+  border-top: 5px double var(--color-dark-white);
+}
+
+.footer-content {
+  width: 85%;
+}
+
+footer li {
+  line-height: 1.8rem;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}
+
+.footer-logo-container {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.link-list {
+  display: grid;
+  grid-template: 1fr  / repeat(6, 1fr);
+  margin: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  border-bottom: 1px solid var(--color-dark-white);
+}
+
+.fa-file-text {
+  width: 1.8rem;
+}
+
+.sub-footer-header {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.sub-footer-email {
+  border-bottom: 1px solid var(--color-dark-white);
+}
+
+.sub-footer-border {
+  border-right: 1px solid var(--color-dark-white);
+}
+
+.sub-footer-container {
+  margin-left: 1rem;
+}
+
+.last-bottom-links {
+  margin-bottom: 6rem;
+}
+
+.last-bottom-links ul {
+  justify-content: space-around;
+}
+
+.footer-stick-div {
+  border-top: 1px solid var(--color-black);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+
+.up-to-date-info {
+  justify-content: center;
+  width: 90%;
+}
+
+.expand {
+  justify-content: space-around;
+  margin-right: 4rem;
+  width: 10%;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
